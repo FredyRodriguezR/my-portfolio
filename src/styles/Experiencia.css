@@ -1,0 +1,98 @@
+.Experiencia-details{
+    background: #fafafa;
+}
+
+.Experiencia-details h2{
+    margin:0px;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.event{
+    margin: 10px;
+    width: 480px;
+    background:#f4fbff;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 3px 5px 33px#888888;
+}
+
+.Experiencia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-details{
+    margin: 20px 40px;
+    background: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 767px){
+    .event {
+        width: 460px;
+        font-size: 16px;
+    }
+
+    .event img{
+        width: 460px;
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 479px){
+    .event-details{
+        margin: 0.5em 2em;
+        background: white;
+        margin-top: -2em;
+        position: relative;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .event {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .event img{
+        width: 300px;
+        height: 100px;
+    }
+
+    .event-title{
+        font-size: 1.2em;
+    }
+
+    .event-description{
+        font-size: 0.8em;
+    }
+
+    .Experiencia-details h2{
+        font-size: 1em;
+    }
+}

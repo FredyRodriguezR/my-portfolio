@@ -1,0 +1,133 @@
+.Portafolio-details{
+    background: #fafafa;
+}
+.Portafolio{
+    background: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Portafolio-details h2{
+    margin:0px;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.project{
+    box-shadow: 3px 5px 33px#888888;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    flex-shrink: 0;
+    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-details {
+    width: 450px;
+}
+
+.project-imageContainer{
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.project-technology,.project-date,.project-url{
+    margin: 10px 0px;
+
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project strong{
+    font-family: 'Fjalla One', Times, serif;
+}
+
+@media screen and (max-width: 1023px){
+    .project{
+        display: block;
+    }
+    .project-details {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .project-details {
+        width: 420px;
+        font-size: 16px;
+    }
+
+    .project-imageContainer{
+        width: 380px;
+        margin: auto;
+        object-fit: cover;
+    }
+
+    .project-imageContainer img{
+        width: 380px;
+    }
+
+    .project-title{
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+    }
+
+    .project-url{
+        font-size: 1em;
+    }
+
+    .project-technology{
+        font-size: 0.7em;
+    }
+
+    .project-date{
+        font-size: 1em;
+    }
+
+    .project-description{
+        font-size: 0.8em;
+    }
+
+    .project-technology .project-date .project-url{
+        margin: 0.3em 0;
+    }
+
+}
+
+@media screen and (max-width: 479px){
+    .project{
+        width: 260px;
+    }
+    .project-details {
+        width: 260px;
+        font-size: 12px;
+    }
+
+    .project-imageContainer{
+        width: 220px;
+        margin: auto;
+        object-fit: cover;
+    }
+
+    .project-imageContainer img{
+        width: 220px;
+    }
+
+    .Portafolio-details h2{
+        font-size: 1em;
+    }
+}

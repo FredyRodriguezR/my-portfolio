@@ -1,0 +1,88 @@
+.Contacto{
+    background: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+
+.social-link.linkedin{
+    background-image: url('../images/linkedin-logo.svg');
+}
+
+.input-email{
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    background-image:  url('../images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center; 
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.submit-button{
+    border-color: white;
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 766px){
+    .Contacto {
+        height: auto;
+        padding: 1em 0;
+        text-align: center;
+        display: block;
+    }
+
+    .submit-button{
+        margin: 1em auto;
+    }
+    
+}
+
+@media screen and (max-width: 479px){
+    .social-link{
+        height: 40px;
+        width: 40px;
+        background-size: 40px;
+    }
+}

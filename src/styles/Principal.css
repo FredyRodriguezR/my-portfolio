@@ -1,0 +1,53 @@
+.Principal{
+    height: 300px;
+    /*background-image: url('../images/hero.jpg');*/
+    /*background-color: #1b2127;*/
+    /*background-size: 500px 300px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: none;
+    flex-wrap: wrap;
+}
+
+#principal{
+    background-color: #1b2127;
+}
+
+.hero{
+    object-fit: cover;
+}
+
+@media screen and (max-width:1023px){
+    .Principal{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+
+    .hero{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2em;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width:480px){
+    h1{
+        font-size: 1.2em;
+    }
+}
+
+
