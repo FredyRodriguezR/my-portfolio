@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   onActiveMenu = () =>{
-    if(this.state.menuName == "menu"){
+    if(this.state.menuName === "menu"){
       this.setState({menuName: "menu is-active"})
     }else{
       this.setState({menuName: "menu"})

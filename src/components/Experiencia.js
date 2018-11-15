@@ -42,7 +42,7 @@ class Event extends Component {
         <div className="event-details">
           <h3 className="event-title">{this.props.event.title}</h3>
           <p className="event-description">{this.props.event.description}</p>
-          <a className="event-url" href={this.props.event.url} target="_blank">Ver Más</a>
+          <a className="event-url" href={this.props.event.url} rel="noopener noreferrer" target="_blank">Ver Más</a>
         </div>
       </article>
     );
