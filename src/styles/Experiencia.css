@@ -16,6 +16,12 @@
     flex-shrink: 0;
     overflow: hidden;
     box-shadow: 3px 5px 33px#888888;
+    transition: 300ms;
+}
+
+.event:hover 
+{
+    transform: scale(1.01);
 }
 
 .Experiencia{

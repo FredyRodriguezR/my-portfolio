@@ -25,9 +25,17 @@
     align-items: center; 
     display: flex;
     flex-wrap: wrap;
+    transition: 300ms;
 }
+
+.project:hover 
+{
+    transform: scale(1.01);
+}
+
 .project-details {
     width: 450px;
+    transition: 300ms;
 }
 
 .project-imageContainer{
@@ -35,6 +43,7 @@
     margin: auto;
     padding: 20px;
     object-fit: cover;
+    transition: 300ms;
 }
 
 .project-title{
