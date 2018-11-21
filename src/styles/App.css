@@ -66,6 +66,14 @@
     color:white;
 }
 
+@media screen and (min-width: 768px){
+    .link:hover{
+        background: white;
+        color: #1b2127;
+        transition: 1s;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .container.header{
         z-index: 3;

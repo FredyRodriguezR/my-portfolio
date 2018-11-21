@@ -28,13 +28,13 @@ class App extends Component {
             <nav className={menuName}>
               <ol>
                 <li>
-                  <a className="link" href="#portafolio">Portafolio</a>
+                  <a className="link portafolio" href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                  <a className="link" href="#experiencia">Experiencia</a>
+                  <a className="link experiencia" href="#experiencia">Experiencia</a>
                 </li>
                 <li>
-                  <a className="link" href="#contacto">Trabajemos Juntos</a>
+                  <a className="link contacto" href="#contacto">Trabajemos Juntos</a>
                 </li>
               </ol>
             </nav>

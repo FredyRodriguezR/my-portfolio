@@ -57,6 +57,12 @@
     border-radius: 5px;
 }
 
+.event-url:hover{
+    background: #056fff;
+    color: white;
+    transition: 0.5s;
+}
+
 @media screen and (max-width: 767px){
     .event {
         width: 460px;

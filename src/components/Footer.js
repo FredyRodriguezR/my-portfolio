@@ -11,7 +11,7 @@ class Footer extends Component {
               <p>Portafolio Fredy Rodriguez<img src={logoAshara} alt="Logo Platzi" width="80px"/></p>
             </div>
             <div>
-              <p>Designed with {"<3"} by <a href="https://twitter.com/thespianartist">@thespianartist</a></p>
+              <p>Designed by <a href="https://twitter.com/thespianartist" rel="noopener noreferrer" target="_blank">@thespianartist</a></p>
             </div>
           </div>
       </div>
