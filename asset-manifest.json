@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-portfolio/static/css/main.0a18cf90.chunk.css",
-  "main.js": "/my-portfolio/static/js/main.04b17ebc.chunk.js",
-  "main.js.map": "/my-portfolio/static/js/main.04b17ebc.chunk.js.map",
+  "main.css": "/my-portfolio/static/css/main.8aed7b19.chunk.css",
+  "main.js": "/my-portfolio/static/js/main.5ee99d13.chunk.js",
+  "main.js.map": "/my-portfolio/static/js/main.5ee99d13.chunk.js.map",
   "static/js/1.e9124ddf.chunk.js": "/my-portfolio/static/js/1.e9124ddf.chunk.js",
   "static/js/1.e9124ddf.chunk.js.map": "/my-portfolio/static/js/1.e9124ddf.chunk.js.map",
   "runtime~main.js": "/my-portfolio/static/js/runtime~main.f2bb3e8d.js",
@@ -11,8 +11,8 @@
   "static/media/Ashara Games Blanco.png": "/my-portfolio/static/media/Ashara Games Blanco.f055601c.png",
   "static/media/index.css": "/my-portfolio/static/media/icomoon.6e394b39.svg",
   "static/media/Sebastian.gif": "/my-portfolio/static/media/Sebastian.8e51104a.gif",
-  "static/css/main.0a18cf90.chunk.css.map": "/my-portfolio/static/css/main.0a18cf90.chunk.css.map",
+  "static/css/main.8aed7b19.chunk.css.map": "/my-portfolio/static/css/main.8aed7b19.chunk.css.map",
   "index.html": "/my-portfolio/index.html",
-  "precache-manifest.82478fabb98454e07e229f384c423637.js": "/my-portfolio/precache-manifest.82478fabb98454e07e229f384c423637.js",
+  "precache-manifest.f791a301348513f36621ae3fb8bbf33c.js": "/my-portfolio/precache-manifest.f791a301348513f36621ae3fb8bbf33c.js",
   "service-worker.js": "/my-portfolio/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fb3915d6bbf5b09fb46bea711a39b421",
-    "url": "/my-portfolio/static/media/icomoon.fb3915d6.woff"
+    "revision": "1b7f5835c1a2b9dddc0d9054e920d459",
+    "url": "/my-portfolio/static/media/icomoon.1b7f5835.eot"
   },
   {
-    "revision": "04b17ebcdedef89e6a1a",
-    "url": "/my-portfolio/static/css/main.0a18cf90.chunk.css"
+    "revision": "5ee99d13a99c5721e895",
+    "url": "/my-portfolio/static/css/main.8aed7b19.chunk.css"
   },
   {
     "revision": "e9124ddf86bb13a82835",
@@ -28,32 +28,32 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Ashara Games Blanco.f055601c.png"
   },
   {
-    "revision": "1b7f5835c1a2b9dddc0d9054e920d459",
-    "url": "/my-portfolio/static/media/icomoon.1b7f5835.eot"
-  },
-  {
     "revision": "a07216b3b96b3a9e1959c7d269212bd6",
     "url": "/my-portfolio/static/media/icomoon.a07216b3.ttf"
   },
   {
-    "revision": "04b17ebcdedef89e6a1a",
-    "url": "/my-portfolio/static/js/main.04b17ebc.chunk.js"
+    "revision": "fb3915d6bbf5b09fb46bea711a39b421",
+    "url": "/my-portfolio/static/media/icomoon.fb3915d6.woff"
+  },
+  {
+    "revision": "5ee99d13a99c5721e895",
+    "url": "/my-portfolio/static/js/main.5ee99d13.chunk.js"
   },
   {
     "revision": "6e394b393f43332589311de6c73d42dc",
     "url": "/my-portfolio/static/media/icomoon.6e394b39.svg"
   },
   {
-    "revision": "ea1b815ecbbd285726fd6cd2f487edc4",
-    "url": "/my-portfolio/static/media/facebook.ea1b815e.svg"
+    "revision": "750dac63675afe3a04bd74fa0a8a1bee",
+    "url": "/my-portfolio/static/media/github.750dac63.svg"
   },
   {
     "revision": "ac6e9cdd48e2432bc08e092c7809a8ef",
     "url": "/my-portfolio/static/media/twitter.ac6e9cdd.svg"
   },
   {
-    "revision": "750dac63675afe3a04bd74fa0a8a1bee",
-    "url": "/my-portfolio/static/media/github.750dac63.svg"
+    "revision": "ea1b815ecbbd285726fd6cd2f487edc4",
+    "url": "/my-portfolio/static/media/facebook.ea1b815e.svg"
   },
   {
     "revision": "60d166b38db33f894bf7555a199ca010",
@@ -64,11 +64,11 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/linkedin-logo.e966da8d.svg"
   },
   {
-    "revision": "e94196796fcd701aa3076f765520642a",
-    "url": "/my-portfolio/static/media/envelope.e9419679.svg"
+    "revision": "f88e340e05dde89154c8e859d1a253cf",
+    "url": "/my-portfolio/static/media/logoSteam.f88e340e.png"
   },
   {
-    "revision": "07e4b793a8dce19ac1e5ef245ea1322d",
+    "revision": "ef895ab18f80bf234daeddb34c59e51a",
     "url": "/my-portfolio/index.html"
   }
 ];
