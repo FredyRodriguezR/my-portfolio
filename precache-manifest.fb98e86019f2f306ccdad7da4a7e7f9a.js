@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/icomoon.1b7f5835.eot"
   },
   {
-    "revision": "5ee99d13a99c5721e895",
-    "url": "/my-portfolio/static/css/main.8aed7b19.chunk.css"
+    "revision": "c60b3769164bb5db7a6d",
+    "url": "/my-portfolio/static/css/main.043ff430.chunk.css"
   },
   {
-    "revision": "e9124ddf86bb13a82835",
-    "url": "/my-portfolio/static/js/1.e9124ddf.chunk.js"
+    "revision": "1c5ed8871a09234a24fe",
+    "url": "/my-portfolio/static/js/1.1c5ed887.chunk.js"
   },
   {
     "revision": "f2bb3e8d5477afa4b7c6",
@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/icomoon.fb3915d6.woff"
   },
   {
-    "revision": "5ee99d13a99c5721e895",
-    "url": "/my-portfolio/static/js/main.5ee99d13.chunk.js"
+    "revision": "c60b3769164bb5db7a6d",
+    "url": "/my-portfolio/static/js/main.c60b3769.chunk.js"
   },
   {
     "revision": "6e394b393f43332589311de6c73d42dc",
     "url": "/my-portfolio/static/media/icomoon.6e394b39.svg"
   },
   {
-    "revision": "750dac63675afe3a04bd74fa0a8a1bee",
-    "url": "/my-portfolio/static/media/github.750dac63.svg"
-  },
-  {
     "revision": "ac6e9cdd48e2432bc08e092c7809a8ef",
     "url": "/my-portfolio/static/media/twitter.ac6e9cdd.svg"
+  },
+  {
+    "revision": "750dac63675afe3a04bd74fa0a8a1bee",
+    "url": "/my-portfolio/static/media/github.750dac63.svg"
   },
   {
     "revision": "ea1b815ecbbd285726fd6cd2f487edc4",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/logoSteam.f88e340e.png"
   },
   {
-    "revision": "ef895ab18f80bf234daeddb34c59e51a",
+    "revision": "21baae1f2b4c18be122602e41a92a62e",
     "url": "/my-portfolio/index.html"
   }
 ];
