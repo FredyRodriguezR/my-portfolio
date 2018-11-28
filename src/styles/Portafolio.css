@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     transition: 300ms;
+    justify-content: center;
 }
 
 .project:hover 

@@ -1,29 +1,38 @@
 import React, { Component } from 'react';
 import '../styles/Portafolio.css';
-import data from '../data/projects.json';
+import { CSSTransitionGroup } from 'react-transition-group';
+import { connect } from 'react-redux';
+
+
+function mapStateToProps(state) {
+  return {
+    data: state.data
+  }
+}
 
 class Portafolio extends Component {
-  state = {
-    projects: data
-  }
 
-  _getProjects(){
+  /*_getProjects(){
     var key = 0;
-    return this.state.projects.data.map((project) => {
+    return this.props.data.map((project) => {
       key++;
-      return <Project key={key} project={project}/>
+      var trueKey = project.title + key;
+      return <Project key={trueKey} project={project}/>
     })
-}
+}*/
 
 
   render() {
-    const projects = this._getProjects();
+    //const projects = this._getProjects();
     return (
       <div className="Portafolio-details">
         <div className="container">
           <h2>Portafolio (Proyectos Destacados)</h2>
           <div className="Portafolio">
-            {projects}
+            { 
+              this.props.data.map((project,index) => {
+              return <Project key={index} project={project} />
+            })}
           </div>
         </div>
       </div>
@@ -43,11 +52,21 @@ class Project extends Component {
           <p className="project-description">{this.props.project.description}</p>
         </div>
         <figure className="project-imageContainer">
-          <img src={this.props.project.imgUrl} className="project-image" alt={this.props.project.title} width="450"></img>
+          <CSSTransitionGroup
+            transitionName = "flicker"
+            transitionEnterTimeout={500}
+            transitionLeave={false}
+          >
+            <img src={this.props.project.imgUrl} 
+            className="project-image" alt={this.props.project.title} 
+            width="450"
+            key = {this.props.project.imgUrl}
+            ></img>
+          </CSSTransitionGroup>
         </figure>
       </article>
     );
   }
 }
 
-export default Portafolio;
+export default connect(mapStateToProps)(Portafolio);

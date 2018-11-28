@@ -1,0 +1,29 @@
+{
+    "data": 
+    [
+        {
+            "title": "Specters Inc.",
+            "technology": "Unity",
+            "date": "25/07/2018",
+            "url": "https://es.quora.com/blog/AsharaGames/Specters-Inc",
+            "description": "Specters Inc. es un prototipo planteado en el Game JAM interno de Ashara Studios, en este videojuego eres un investigador paranormal novato al que han contratado para que investigues fenómenos inexplicables que han estado sucediendo en Trans-Allegheny Lunatic Asylum, un viejo manicomio abandonado. El juego fue planteado con base en dos palabras: Amplificar y Paranormal.",
+            "imgUrl": "https://drive.google.com/uc?id=1-E1dbT1JPyZd6VddTMu4UK51-PMNrU0F"     
+        },
+        {
+            "title": "Exorcist",
+            "technology": "Unity",
+            "date": "01/04/2017",
+            "url": "https://play.google.com/store/apps/details?id=com.asharastudios.Exorcist",
+            "description": "Exorcist es un juego para móvil, donde el jugador toma el rol de un exorcista, el cual lucha contra criaturas del inframundo para exorcizarlas y poder grabarlas en su libro de sombras. Por medio de una mecánica de dibujar glifos, patrones que se hacen al conectar varios puntos, es posible atacar a las criaturas que el exorcista encuentra. En cada nivel se pueden encontrar criaturas diferentes. El objetivo del jugador es recorrer el inframundo en búsqueda de nuevas criaturas para anexarlas en su libro de sombras.",
+            "imgUrl": "https://drive.google.com/uc?id=1KKwletkmuZK6i59_JuTBbyQNx3YYafWu"
+        },
+        {
+            "title": "The Brightest Ocean",
+            "technology": "Unity",
+            "date": "08/07/2018",
+            "url": "https://es.quora.com/blog/AsharaGames/The-Brightest-Ocean",
+            "description": "The Brightest Ocean es un prototipo realizado para el Agora Game Jam, en este videojuego te enfrentas a una aventura marina controlando a Splight, una mantis marina que sufrió algunos cambios debido a su entorno y Tiar una medusa que busca un mejor entorno para vivir. El juego se desarrollo en base de la luz como mecánica principal. ",
+            "imgUrl": "https://drive.google.com/uc?id=1XVi9_6YuMQlv7--q9NX6xgc8-R100Pqm"
+        }
+    ]
+}
