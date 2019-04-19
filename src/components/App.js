@@ -28,7 +28,10 @@ class App extends Component {
             <nav className={menuName}>
               <ol>
                 <li>
-                  <a className="link portafolio" href="#portafolio">Portafolio</a>
+                  <a className="link soft" href="#portafolio" onClick={this.props.handleSoft}>Software</a>
+                </li>
+                <li>
+                  <a className="link soft" href="#portafolio" onClick={this.props.handleGames}>Games</a>
                 </li>
                 <li>
                   <a className="link experiencia" href="#experiencia">Experiencia</a>

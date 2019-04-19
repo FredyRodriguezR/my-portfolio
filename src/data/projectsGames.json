@@ -24,6 +24,15 @@
             "url": "https://es.quora.com/blog/AsharaGames/Specters-Inc",
             "description": "Specters Inc. es un prototipo planteado en el Game JAM interno de Ashara Studios, en este videojuego eres un investigador paranormal novato al que han contratado para que investigues fenómenos inexplicables que han estado sucediendo en Trans-Allegheny Lunatic Asylum, un viejo manicomio abandonado. El juego fue planteado con base en dos palabras: Amplificar y Paranormal.",
             "imgUrl": "https://drive.google.com/uc?id=1-E1dbT1JPyZd6VddTMu4UK51-PMNrU0F"
+        },
+        {
+            "title": "Second Circle",
+            "technology": "Unity, Postgres, OAuth 2.0, Docker, API Rest, Spine",
+            "date": "01/12/2017",
+            "url": "https://www.facebook.com/SecondCircleVG/",
+            "description": "Videojuego para adultos en desarrollo, iniciado con la inversión del Publisher: Super Hippo Games. Trabajo realizado en el proyecto: Programación de gameplay, animaciones, UI, Asset Bundles y persistencia de datos. Colaboración en diseño de personajes, mecánicas y arte en general. Diseño del modelo de monetización del juego. Integración con software de animación 2D, Spine. Integración con el API JS de Nutaku (Micropagos). Integración con el API principal del juego desarrollada con el ORM de Sequelize conectada a una BD Postgres. Compilacion del APK y build WebGL para la plataforma Nutaku.",
+            "imgUrl": "https://drive.google.com/uc?id=1KFHFb5PMBXaS-56tHfMMkyBzNz5P2Iyl"
         }
+        
     ]
 }

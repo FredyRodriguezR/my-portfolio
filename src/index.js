@@ -10,8 +10,8 @@ import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 import cheet from 'cheet.js';
-import data1 from './data/projects.json';
-import data2 from './data/projects2.json';
+import projectsGames from './data/projectsGames.json';
+import projectsSoft from './data/projectsSoft.json';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
@@ -27,14 +27,32 @@ function reducer(state, action) {
     }
 }
 
-const store = createStore(reducer, data1);
+const store = createStore(reducer, projectsGames);
 
+
+var changeSoft = () => {
+    store.dispatch({
+        type: 'UPDATE_PROPS',
+        payload: {
+            props: projectsSoft
+        }
+    });
+};
+
+var changeGames = () => {
+    store.dispatch({
+        type: 'UPDATE_PROPS',
+        payload: {
+            props: projectsGames
+        }
+    });
+};
 
 cheet('s h a k e', () => {
     store.dispatch({
         type: 'UPDATE_PROPS',
         payload: {
-            props: data2
+            props: projectsSoft
         }
     });
 });
@@ -43,12 +61,12 @@ cheet('s h a k e e', () => {
     store.dispatch({
         type: 'UPDATE_PROPS',
         payload: {
-            props: data1
+            props: projectsGames
         }
     });
 });
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App handleGames={changeGames} handleSoft={changeSoft}/>, document.getElementById('root'));
 ReactDOM.render(<Principal />, document.getElementById('principal'));
 ReactDOM.render(
     <Provider store={store}>
