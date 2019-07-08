@@ -7,7 +7,23 @@
             "date": "01/01/2019",
             "url": "https://asharastudios.com",
             "description": "El sitio web de Ashara Studios fue creado en conjunto con un equipo de un diseñador, seis desarrolladores y liderado por mi, tiene un diseño responsive riguroso que permite su visualizacion en cualquier dispositivo y permite una actualizacion dinamica de contenido.",
-            "imgUrl": "https://drive.google.com/uc?id=1NHwZhxOiFzr0bkAPPyJjVbba0kO6VdxE"     
+            "imgUrl": "projectsSoft/bannerAsharaSTudios.jpg"     
+        },
+        {
+            "title": "Sistema de Reportes Peesa",
+            "technology": "React.js, Axios",
+            "date": "01/02/2019",
+            "url": "https://peesaconsumos.asharastudios.com/",
+            "description": "Desarrollo frontend por medio de React.js y librerías javascript para un generador de reportes de la empresa comercializadora de energía Peesa.",
+            "imgUrl": "projectsSoft/logopeesa.png"     
+        },
+        {
+            "title": "Mi Website",
+            "technology": "React.js, Github Pages",
+            "date": "08/07/2019",
+            "url": "https://github.com/FredyRodriguezR/my-portfolio",
+            "description": "Desarrollo frontend por medio de React.js de este website, el cual es utilizado para mostrar el portafolio que llevo en mi camino profesional.",
+            "imgUrl": "projectsSoft/github.jpg"     
         }
     ]
 }

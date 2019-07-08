@@ -37,7 +37,7 @@ class Event extends Component {
     return (
       <article className="event">
         <figure className="event-imageContainer">
-          <img className="event-image" src={this.props.event.imgUrl} width="500" alt={this.props.event.title} />
+          <img className="event-image" src={require(`../images/${this.props.event.imgUrl}`)} width="500" alt={this.props.event.title} />
         </figure>
         <div className="event-details">
           <h3 className="event-title">{this.props.event.title}</h3>

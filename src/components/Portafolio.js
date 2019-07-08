@@ -57,7 +57,7 @@ class Project extends Component {
             transitionEnterTimeout={500}
             transitionLeave={false}
           >
-            <img src={this.props.project.imgUrl} 
+            <img src={require(`../images/${this.props.project.imgUrl}`)} 
             className="project-image" alt={this.props.project.title} 
             width="450"
             key = {this.props.project.imgUrl}
