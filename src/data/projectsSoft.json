@@ -2,6 +2,7 @@
     "data": 
     [
         {
+            "urlOn": true,
             "title": "Ashara Studios Web Site",
             "technology": "React.js, in18n",
             "date": "01/01/2019",
@@ -10,20 +11,31 @@
             "imgUrl": "projectsSoft/bannerAsharaSTudios.jpg"     
         },
         {
+            "urlOn": true,
             "title": "Sistema de Reportes Peesa",
             "technology": "React.js, Axios",
             "date": "01/02/2019",
-            "url": "https://peesaconsumos.asharastudios.com/",
+            "url": "http://204.48.31.203:3000/",
             "description": "Desarrollo frontend por medio de React.js y librerías javascript para un generador de reportes de la empresa comercializadora de energía Peesa.",
             "imgUrl": "projectsSoft/logopeesa.png"     
         },
         {
+            "urlOn": true,
             "title": "Mi Website",
             "technology": "React.js, Github Pages",
             "date": "08/07/2019",
             "url": "https://github.com/FredyRodriguezR/my-portfolio",
             "description": "Desarrollo frontend por medio de React.js de este website, el cual es utilizado para mostrar el portafolio que llevo en mi camino profesional.",
             "imgUrl": "projectsSoft/github.jpg"     
+        },
+        {
+            "urlOn": true,
+            "title": "Voike",
+            "technology": "React Native, Ignite",
+            "date": "08/01/2020",
+            "url": "https://play.google.com/store/apps/details?id=com.voike.android&hl=es_419",
+            "description": "Desarrollo front-end de una aplicacion para el consumo de música como servicio haciendo uso de las tecnologías React Native y Ignite Cli.",
+            "imgUrl": "projectsSoft/Voike.png"     
         }
     ]
 }
