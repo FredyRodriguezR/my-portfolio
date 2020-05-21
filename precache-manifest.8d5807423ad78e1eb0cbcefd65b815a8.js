@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f758082656a3729a5b0b",
-    "url": "/my-portfolio/static/css/main.f9867151.chunk.css"
+    "revision": "b994cec479c60df21af9",
+    "url": "/my-portfolio/static/css/main.a30473c2.chunk.css"
   },
   {
-    "revision": "f758082656a3729a5b0b",
-    "url": "/my-portfolio/static/js/main.f7580826.chunk.js"
+    "revision": "b994cec479c60df21af9",
+    "url": "/my-portfolio/static/js/main.b994cec4.chunk.js"
   },
   {
-    "revision": "73f1068c8a6220d9b7e8",
-    "url": "/my-portfolio/static/js/1.73f1068c.chunk.js"
+    "revision": "31b264e205da417f0dde",
+    "url": "/my-portfolio/static/js/1.31b264e2.chunk.js"
   },
   {
     "revision": "f2bb3e8d5477afa4b7c6",
     "url": "/my-portfolio/static/js/runtime~main.f2bb3e8d.js"
-  },
-  {
-    "revision": "05b2505acad528bc9d0361ff710cac5e",
-    "url": "/my-portfolio/static/media/logoSebas.05b2505a.PNG"
   },
   {
     "revision": "8e51104a14b75f98935507ae38dc7725",
@@ -28,12 +24,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Ashara Games Blanco.f055601c.png"
   },
   {
-    "revision": "1b7f5835c1a2b9dddc0d9054e920d459",
-    "url": "/my-portfolio/static/media/icomoon.1b7f5835.eot"
-  },
-  {
-    "revision": "a07216b3b96b3a9e1959c7d269212bd6",
-    "url": "/my-portfolio/static/media/icomoon.a07216b3.ttf"
+    "revision": "7fda3cc7311cecfdc40779ca7d5a0db6",
+    "url": "/my-portfolio/static/media/logoSebas.7fda3cc7.PNG"
   },
   {
     "revision": "fb3915d6bbf5b09fb46bea711a39b421",
@@ -42,6 +34,14 @@ self.__precacheManifest = [
   {
     "revision": "6e394b393f43332589311de6c73d42dc",
     "url": "/my-portfolio/static/media/icomoon.6e394b39.svg"
+  },
+  {
+    "revision": "1b7f5835c1a2b9dddc0d9054e920d459",
+    "url": "/my-portfolio/static/media/icomoon.1b7f5835.eot"
+  },
+  {
+    "revision": "a07216b3b96b3a9e1959c7d269212bd6",
+    "url": "/my-portfolio/static/media/icomoon.a07216b3.ttf"
   },
   {
     "revision": "e94196796fcd701aa3076f765520642a",
@@ -80,6 +80,10 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/linkedin-logo.e966da8d.svg"
   },
   {
+    "revision": "7fda3cc7311cecfdc40779ca7d5a0db6",
+    "url": "/my-portfolio/static/media/logoSebas.7fda3cc7.png"
+  },
+  {
     "revision": "f88e340e05dde89154c8e859d1a253cf",
     "url": "/my-portfolio/static/media/logoSteam.f88e340e.png"
   },
@@ -98,6 +102,10 @@ self.__precacheManifest = [
   {
     "revision": "81fc0a91e7da99f89cb979477e05bd1e",
     "url": "/my-portfolio/static/media/TheBrightestOcean.81fc0a91.png"
+  },
+  {
+    "revision": "143f923f22566c2817603e3aee99cb23",
+    "url": "/my-portfolio/static/media/VoxelMuseum.143f923f.PNG"
   },
   {
     "revision": "38747236b26d588675114ba24b221d46",
@@ -128,7 +136,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/twitter.ac6e9cdd.svg"
   },
   {
-    "revision": "b4012ed806eed3ecff7b7e3ebd4654d5",
+    "revision": "8ca447c1ea5645f1302ed9c6ef98888d",
     "url": "/my-portfolio/index.html"
   }
 ];
