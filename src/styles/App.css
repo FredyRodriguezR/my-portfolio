@@ -1,5 +1,5 @@
 .App-header{
-    background-color: #1b2127;
+    background-color: rgb(25, 183, 154);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -112,7 +112,7 @@
 
     .menu{
         position: fixed;
-        background: rgba(5, 111, 255, 0.8);
+        background: rgba(0, 213, 195,0.8);
         top:0;
         left: -100vw;
         width: 100vw;

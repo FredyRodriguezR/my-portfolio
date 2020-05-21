@@ -51,15 +51,19 @@ h1{
 }
 
 h1 strong{
-  color: #026fff;
+  color: rgb(255, 255, 255);
 }
 
 h2{
-  color: #026fff;
+  color: #00D5C3;
   text-transform: uppercase;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 24px;
+}
+
+a{
+  color: #00D5C3;
 }
 
 figure{

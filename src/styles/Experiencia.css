@@ -50,7 +50,7 @@
 }
 
 .event-url{
-    color: #056fff;
+    color: #00D5C3;
     border: 1px solid;
     padding: 5px 20px;
     text-decoration: none;
@@ -58,7 +58,7 @@
 }
 
 .event-url:hover{
-    background: #056fff;
+    background: #00D5C3;
     color: white;
     transition: 0.5s;
 }

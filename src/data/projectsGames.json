@@ -3,6 +3,15 @@
     [
         {
             "urlOn": true,
+            "title": "Voxel Museum",
+            "technology": "Unity, WebGL, Magica Voxel, VoxelEdit",
+            "date": "05/21/2020",
+            "url": "https://fredyrodriguezr.github.io/VoxelMuseum/",
+            "description": "Desarrollo realizado en Unity para mostrar el portafolio realizado en mi camino como Voxel Artist.",
+            "imgUrl": "projectsGames/VoxelMuseum.PNG"
+        },
+        {
+            "urlOn": true,
             "title": "Exorcist",
             "technology": "Unity",
             "date": "01/04/2017",
